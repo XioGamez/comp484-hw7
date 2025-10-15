@@ -13,19 +13,9 @@
     overflow: hidden;
 }
 
-h1 {
-    margin: 0;
-    font-family: 'Libre Caslon Display', serif;
-    font-size: 3rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-
-h2 {
-    margin: 0;
-    font-family: 'Libre Caslon Display', serif;
-    font-size: 2rem;
-    font-weight: 400;
+/* Box model fix: makes width and height include padding and border */
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
 /* Body text */
@@ -40,6 +30,21 @@ body {
 /* Header & Footer */
 .header {
     background-color: #8D77AB;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 .footer {
