@@ -1,0 +1,53 @@
+/* Color Palette
+# - BAD8B6
+# - E1EACD
+# - F9F6E6
+# - 8D77AB
+*/
+
+h1 {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/* Body text */
+body {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+/* Header & Footer */
+.header {
+    background-color: #8D77AB;
+}
+
+.footer {
+    background-color: #8D77AB;
+}
+
+
+/* Work Experience */
+.work-experience {
+    background-color: #F9F6E6;
+}
+
+/* Projects */
+.projects {
+    background-color: #BAD8B6;
+}
+
+
+/* Education */
+.education {
+    background-color: #E1EACD;
+}
