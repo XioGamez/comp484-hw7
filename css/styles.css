@@ -13,9 +13,21 @@
     overflow: hidden;
 }
 
-/* Box model fix: makes width and height include padding and border */
 *, *::before, *::after {
     box-sizing: border-box;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
 }
 
 /* Body text */
@@ -74,8 +86,5 @@ h2 {
 
 /* Profile */
 .profile-img {
-    width: 300px;
     border-radius: 50%;
-    float: left;
-    margin-right: 30px;
 }
